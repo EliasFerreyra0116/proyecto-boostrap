@@ -1,0 +1,32 @@
+/*seccion fotos*/
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    margin: auto;
+    grid-gap: 10px;
+    padding: 40px 0;
+    overflow: hidden;
+
+    .galeria img {
+      width: 100%;
+      vertical-align: top;
+      height: 300px;
+      object-fit: cover;
+      transition: transform 0.5;
+    }
+    #fotos{margin-top: 100px;}
+  
+
+  }
+  
+ .galeria > a {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+  .galeria a:hover img {
+  transform: rotate(10deg) scale(1.3);}
+  }
+  
+ 
+ 
